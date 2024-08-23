@@ -7,8 +7,8 @@
     <style>
         body {
             margin: 0;
-            background-color: #000; /* Fond noir */
-            color: #fff; /* Couleur du texte en blanc pour contraste */
+            background-color: #000;
+            color: #fff;
         }
 
         .marquee-container {
@@ -16,17 +16,17 @@
             overflow: hidden;
             position: relative;
             background-color: #000; /* Fond noir */
-            height: 100vh; /* Hauteur de la fenêtre */
+            height: 200vh; /* Hauteur de la fenêtre */
         }
 
         .marquee-text {
             display: inline-block;
-            font-size: 80px; /* Texte encore plus grand */
+            font-size: 100px; /* Texte encore plus grand */
             font-weight: bold; /* Texte en gras */
             color: #fff; /* Texte en blanc pour contraster avec le fond noir */
             white-space: nowrap;
             position: absolute;
-            left: 100%; /* Position initiale du texte hors de l'écran à droite */
+            left: 50%; /* Position initiale du texte hors de l'écran à droite */
             animation: marquee 15s linear infinite; /* Durée de l'animation */
         }
 
